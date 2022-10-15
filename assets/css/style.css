@@ -2,15 +2,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 /* default layout */
-* {
-    margin: 0;
+*, *::before, *::after {
+    box-sizing: border-box;
+    /* margin: 0;
     padding: 0;
-    border: none;
+    border: none; */
 }
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0AD100;
 }
+
+.quiz-container{
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0 0 10px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#homepage-container {
+    justify-content: center;
+    align-items: center;
+}
+
+/* #quiz-section {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 /* Header */
 header>a {
@@ -27,5 +58,11 @@ footer {
 
 li {
     display: inline;
-    padding-right: 20px;
+    padding-right: 20px ;
+}
+
+/* other */
+
+.hide {
+    display: none;
 }

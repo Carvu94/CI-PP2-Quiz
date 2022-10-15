@@ -1,117 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- CSS link -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header section -->
     <header>
-        <a href="index.html" aria-label="Takes user back to homepage">
-            <h1>Training Assistant</h1>
-        </a>
+      <a href="index.html" aria-label="Takes user back to homepage">
+        <h1>Training Assistant</h1>
+      </a>
     </header>
 
     <!-- Quiz section -->
-    <div class="quiz-container">
+    <section id="quiz-section">
+      <div class="quiz-container">
         <div id="homepage-container">
-            <h2>Welcome to the Training Assistant!</h2>
-            <h3>Test your Allergens, Diets, Manual Handling and ... knowledge.</h3>
-            <button id="info-button">About Quiz</button>
-            <button id="start">Start the Quiz</button>
+          <h2>Welcome to the Training Assistant!</h2>
+          <h3>
+            Test your Allergens, Diets, Manual Handling and ... knowledge.
+          </h3>
+          <button id="info-button">About Quiz</button>
+          <button id="start">Start the Quiz</button>
         </div>
-    </div>
+      </div>
 
-    <!-- Category pick - appears after user initiates the quiz -->
+      <!-- Category pick - appears after user initiates the quiz -->
 
-    <div id="category-pick" class="hide">
+      <div id="category-pick" class="hide">
         <div>
-        <h3>Please pick the category of the quiz</h3>
+          <h3>Please pick the category of the quiz</h3>
         </div>
         <div class="button-container">
-            <button id="allergens">Allergens</button>
-            <button id="HACCP">HACCP</button>
-            <button id="manual-handling">Manual Handling</button>
-            <button id="diets">Diets</button>
+          <button id="allergens">Allergens</button>
+          <button id="HACCP">HACCP</button>
+          <button id="manual-handling">Manual Handling</button>
+          <button id="diets">Diets</button>
         </div>
-    </div>
+      </div>
 
-    <!-- Questions area - appears after the category is picked -->
-    <div id="question-area" class="hide">
+      <!-- Questions area - appears after the category is picked -->
+      <div id="question-area" class="hide">
         <div id="question-text"></div>
         <div class="button-container">
-            <button class="answer-btn">Answer 1</button>
-            <button class="answer-btn">Answer 2</button>
-            <button class="answer-btn">Answer 3</button>
-            <button class="answer-btn">Answer 4</button>
+          <button class="answer-btn">Answer 1</button>
+          <button class="answer-btn">Answer 2</button>
+          <button class="answer-btn">Answer 3</button>
+          <button class="answer-btn">Answer 4</button>
         </div>
-    </div>
+      </div>
 
-    <!-- Score - appears when quiz is started -->
-    <p id="score" class="hide">Score:</p>
-
+      <!-- Score - appears when quiz is started -->
+      <p id="score" class="hide">Score:</p>
+    </section>
+    
     <!-- Footer section -->
     <footer>
-        <ul class="social-networks">
-            <li>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab)"
-                ><i class="fab fa-facebook"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our Twitter page (opens in a new tab)"
-                ><i class="fab fa-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our Youtube page (opens in a new tab)"
-                ><i class="fab fa-youtube"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab)"
-                ><i class="fab fa-instagram"></i
-              ></a>
-            </li>
-          </ul>
-          <p>
-            Made by
-            <a
-              href="https://github.com/Carvu94"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit my GitHub profile (opens in a new tab)"
-              >CarVu94 <i class="fab fa-github"></i
-            ></a>
-            as Project Portfolio 2 during the course with Code Institute
-          </p>    
+      <ul class="social-networks">
+        <li>
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://youtube.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Youtube page (opens in a new tab)"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+      <p>
+        Made by
+        <a
+          href="https://github.com/Carvu94"
+          target="_blank"
+          rel="noopener"
+          aria-label="Visit my GitHub profile (opens in a new tab)"
+          >CarVu94 <i class="fab fa-github"></i
+        ></a>
+        as Project Portfolio 2 during the course with Code Institute
+      </p>
     </footer>
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/2747d9050d.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/2747d9050d.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- JS link -->
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
