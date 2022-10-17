@@ -28,6 +28,31 @@
           <button id="info-button">About Quiz</button>
           <button id="start">Start the Quiz</button>
         </div>
+
+        <!-- Category pick - appears after user initiates the quiz -->
+
+        <div id="category-pick" class="hide">
+          <div>
+            <h3>Please pick the category of the quiz</h3>
+          </div>
+          <div class="button-container">
+            <button id="allergens">Allergens</button>
+            <button id="HACCP">HACCP</button>
+            <button id="manual-handling">Manual Handling</button>
+            <button id="diets">Diets</button>
+          </div>
+        </div>
+
+        <!-- Questions area - appears after the category is picked -->
+        <div id="question-area" class="hide">
+          <div id="question-text"></div>
+          <div class="button-container">
+            <button class="answer-btn">Answer 1</button>
+            <button class="answer-btn">Answer 2</button>
+            <button class="answer-btn">Answer 3</button>
+            <button class="answer-btn">Answer 4</button>
+          </div>
+        </div>
       </div>
 
       <!-- modal - mostly taken from W3 Schools on link: https://www.w3schools.com/howto/howto_css_modals.asp -->
@@ -38,41 +63,18 @@
             <h3>About us</h3>
             <br />
             <p>
-              Our main goal is to help managers in hospitality industry to train and improve knowledge of their front and back of house staff on important subjects.
+              Our main goal is to help managers in hospitality industry to train
+              and improve knowledge of their front and back of house staff on
+              important subjects.
             </p>
             <br />
             <p>How to play:</p>
-            <ol type="1">
+            <ol>
               <li>Click on 'Start the quiz'</li>
               <li>Pick a category</li>
               <li>Have fun learning!</li>
             </ol>
           </div>
-        </div>
-      </div>
-
-      <!-- Category pick - appears after user initiates the quiz -->
-
-      <div id="category-pick" class="hide">
-        <div>
-          <h3>Please pick the category of the quiz</h3>
-        </div>
-        <div class="button-container">
-          <button id="allergens">Allergens</button>
-          <button id="HACCP">HACCP</button>
-          <button id="manual-handling">Manual Handling</button>
-          <button id="diets">Diets</button>
-        </div>
-      </div>
-
-      <!-- Questions area - appears after the category is picked -->
-      <div id="question-area" class="hide">
-        <div id="question-text"></div>
-        <div class="button-container">
-          <button class="answer-btn">Answer 1</button>
-          <button class="answer-btn">Answer 2</button>
-          <button class="answer-btn">Answer 3</button>
-          <button class="answer-btn">Answer 4</button>
         </div>
       </div>
 
