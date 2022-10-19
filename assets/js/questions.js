@@ -30,7 +30,7 @@ let allergensQuestions = [
     },
 
     {
-        question: "Choose the right option that gives the correct allergens for this dish:  'Fries: Potato, Salt, Soybean Oil'.",
+        question: "Choose the right option that gives the correct allergens for this dish: 'Fries: Potato, Salt, Soybean Oil'.",
         choices:["Gluten", "Gluten, Soybean", "Soybean", "Milk"],
         answer: 3
     },
@@ -48,7 +48,7 @@ let allergensQuestions = [
     },
 
     {
-        question: "Choose the right option that gives the correct allergens for this dish:  'Vegan Cannelloni: Quinoa, Pasta, Mushroom, Courgette, Vinegar, Garlic, Salt, Pepper'",
+        question: "Choose the right option that gives the correct allergens for this dish: 'Vegan Cannelloni: Quinoa, Pasta, Mushroom, Courgette, Vinegar, Garlic, Salt, Pepper'",
         choices:["Gluten", "Gluten, Sulphites", "Gluten, Milk", "Egg"],
         answer: 2
     },
@@ -63,7 +63,7 @@ let allergensQuestions = [
 let haccpQuestions = [
     {
         question:"What is FIFO?",
-        choices:["Football Federation", "", "First in, First out method", ""],
+        choices:["Football Federation", "Food Federadion", "First in, First out method", ""],
         answer: 3
     },
 
@@ -98,26 +98,150 @@ let haccpQuestions = [
     },
 
     {
-        question:"",
-        choices:["", "", "", ""],
+        question:"Why is conducting a hazard analysis important?",
+        choices:["To make a point", "To make food taste better", "To make food look better", "To identify potential hazards"],
+        answer: 4
+    },
+
+    {
+        question:"How many principles are there in HACCP system?",
+        choices:["4", "7", "15", "9"],
+        answer: 2
+    },
+
+    {
+        question:"Why food must be thoroughly cooked to the correct time and temperature combination?",
+        choices:["It helps to improve the taste", "It makes the food look more attractive", "It is a requirement of the law", "It helps to kill harmful microbes that can cause disease"],
+        answer: 4
+    },
+
+    {
+        question:"In a place of work, the best way to dry your hands after washing them is to:",
+        choices:["Use a paper towel", "Use a air dryer", "Just shake excess water away", "Use a cotton towel"],
+        answer: 1
+    }
+]
+
+let manualHandlingQuestions = [
+    {
+        question: "",
+        choices: ["", "", "", ""],
         answer:
     },
 
     {
-        question:"",
-        choices:["", "", "", ""],
+        question: "",
+        choices: ["", "", "", ""],
         answer:
     },
 
     {
-        question:"",
-        choices:["", "", "", ""],
+        question: "",
+        choices: ["", "", "", ""],
         answer:
     },
 
     {
-        question:"",
-        choices:["", "", "", ""],
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    }
+]
+
+let dietsQuestions = [
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
+        answer:
+    },
+
+    {
+        question: "",
+        choices: ["", "", "", ""],
         answer:
     }
 ]
