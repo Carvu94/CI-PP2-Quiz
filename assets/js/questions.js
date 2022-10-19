@@ -1,3 +1,4 @@
+// Questions that will be in quiz when user choose Allergens category
 let allergensQuestions = [
     {
         question: "By European legislation, how many items are listed as allergens?",
@@ -60,6 +61,7 @@ let allergensQuestions = [
     }
 ];
 
+// Questions that will be in quiz when user choose HACCP category
 let haccpQuestions = [
     {
         question:"What is FIFO?",
@@ -122,6 +124,7 @@ let haccpQuestions = [
     }
 ]
 
+// Questions that will be in quiz when user choose Health & Safety category
 let healthAndSafetyQuestions = [
     {
         question: "Why is important to wash hands properly?",
@@ -184,6 +187,7 @@ let healthAndSafetyQuestions = [
     }
 ]
 
+// Questions that will be in quiz when user choose Diets category
 let dietsQuestions = [
     {
         question: "",
