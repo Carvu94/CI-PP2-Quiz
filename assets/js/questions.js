@@ -122,35 +122,35 @@ let haccpQuestions = [
     }
 ]
 
-let manualHandlingQuestions = [
+let healthAndSafetyQuestions = [
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "Why is important to wash hands properly?",
+        choices: ["So they look nice", "To be cleaner than other people", "To waste the water", "To prevent spreading of poisoning bacteria"],
+        answer: 4
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "Heavy and glass items should be stored on:",
+        choices: ["Higher shelves", "Middle shelves", "Lower shelves", "Bin"],
+        answer: 3
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "In case of spillage, we should:",
+        choices: ["Put a yellow sign and clean", "Tell a manager", "Go home", "Ask someone else to clean"],
+        answer: 1
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "When lifting a heavy load, we should:",
+        choices: ["Show how strong I am", "Assess and lift with knees not backs", "Eat some spinach", "Call security team"],
+        answer: 2
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "When handling hot equipment, we should:",
+        choices: ["Just do our job", "Use cutting glove", "Use the kitchen towel and be careful", "Bend your knees"],
+        answer: 3
     },
 
     {
