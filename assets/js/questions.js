@@ -61,6 +61,8 @@ let allergensQuestions = [
     }
 ];
 
+export {AllergensQuiz};
+
 // Questions that will be in quiz when user choose HACCP category
 let haccpQuestions = [
     {
