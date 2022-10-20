@@ -159,95 +159,95 @@ let healthAndSafetyQuestions = [
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "What does PPE stand for?",
+        choices: ["Protective Preventative Equipment", "Personal Protective Equipment", "People's Protective Equipment", "Personal Protective Establishment"],
+        answer: 2
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "Which of the following is not classified as a manual handling activity?",
+        choices: ["Throwing", "Pushing", "Carrying", "Pulling"],
+        answer: 1
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "6.What type of injury is the most common when manual handling?",
+        choices: ["Broken limbs", "Broken heart", "Broken knees", "Muscular and skeletal disorders"],
+        answer: 4
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "All businesses must have 1st aid kits that are available to:",
+        choices: ["All persons over the age of 18", "A qualified 1st aider", "All staff", "Health and safety officer"],
+        answer: 3
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "One of the preventive measures to avoid slips, trips and falls is:",
+        choices: ["Wear runners", "Walk, do not run", "Let others clean", "Clean later"],
+        answer: 2
     }
 ]
 
 // Questions that will be in quiz when user choose Diets category
 let dietsQuestions = [
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "Crushed Baby Potato with Scallion: Potato, Salt, Pepper, Scallion, Margarine. Select the diet of the dish.",
+        choices: ["Vegan", "Vegetarian", "Halal", "Non-vegetarian"],
+        answer: 1
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "Spicy Buffalo Cauliflower Wings. Ingredients: cauliflower, lasagna sheets, tofu, vegan mozzarella, spinach. Choose the correct diet.",
+        choices: ["Vegan", "Vegetarian", "Halal", "Non-vegetarian"],
+        answer: 1
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "Choose the item that could turn a vegan dish into vegetarian.",
+        choices: ["Maple Syrup", "Honey", "Pork", "Carrot"],
+        answer: 2
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "Parmesan with Animal-Rennet is:",
+        choices: ["Vegan", "Vegetarian", "Halal", "Non-vegetarian"],
+        answer: 4
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "Which of the following items is suitable for customers who are vegetarian?",
+        choices: ["Egg", "Pork Gelatin", "Chicken Wings", "Salmon"],
+        answer: 1
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "Which of the following items are suitable for customers who are vegan?",
+        choices: ["Yogurt", "Egg", "Honey", "Maple Syrup"],
+        answer: 4
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "Which of the following items are Halal?",
+        choices: ["Pork Sausage", "Lamb Mince", "Ham", "Parmesan"],
+        answer: 2
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "Can a vegetarian food item contain honey and cream?",
+        choices: ["Sometimes", "No", "Yes", "Maybe"],
+        answer: 3
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "Which of the following food items is suitable for both vegan and vegetarian diets?",
+        choices: ["Honey", "Trout", "Margarine", "Parmesan"],
+        answer: 3
     },
 
     {
-        question: "",
-        choices: ["", "", "", ""],
-        answer:
+        question: "Which of the following food items is not suitable for Halal diet?",
+        choices: ["Turkey", "Hake", "Cod", "Gammon"],
+        answer: 4
     }
 ]
