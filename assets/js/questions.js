@@ -2,66 +2,104 @@
 let allergensQuestions = [
     {
         question: "By European legislation, how many items are listed as allergens?",
-        choices:["15", "14", "16", "10"],
+        // choices:["15", "14", "16", "10"],
+        choice1: "15",
+        choice2: "14",
+        choice3: "16",
+        choice4: "17",
         answer: 2
     },
 
     {
         question: "Which of the following items contain an allergen?",
-        choices:["Rice Milk", "Honey", "Celeriac", "Linseed"],
+        // choices:["Rice Milk", "Honey", "Celeriac", "Linseed"],
+        choice1: "Rice Milk",
+        choice2: "Honey",
+        choice3: "Celeriac",
+        choice4: "Linseed",
         answer: 3
     },
 
     {
         question: "Which of the following does NOT contain Sulphites?",
-        choices:["Vinegar", "Wine", "Sesame Oil", "Beer",],
+        // choices:["Vinegar", "Wine", "Sesame Oil", "Beer",],
+        choice1: "Vinegar",
+        choice2: "Wine",
+        choice3: "Sesame Oil",
+        choice4: "Beer",
         answer: 3
     },
 
     {
         question: "Choose the item that contains Soybean allergen",
-        choices:["Egg", "Beer", "Milk", "Edamame Bean"],
+        // choices:["Egg", "Beer", "Milk", "Edamame Bean"],
+        choice1: "Egg",
+        choice2: "Beer",
+        choice3: "Milk",
+        choice4: "Edamame Bean",
         answer: 4
     },
 
     {
         question: "Why is Peanut different allergen then Nuts?",
-        choices:["It grows from ground", "It grows on trees", "It grows by the coast", "It's just special"],
+        // choices:["It grows from ground", "It grows on trees", "It grows by the coast", "It's just special"],
+        choice1: "It grows from ground",
+        choice2: "It grows on trees",
+        choice3: "It grows by the coast",
+        choice4: "It's just special",
         answer: 1
     },
 
     {
         question: "Choose the right option that gives the correct allergens for this dish: 'Fries: Potato, Salt, Soybean Oil'.",
-        choices:["Gluten", "Gluten, Soybean", "Soybean", "Milk"],
+        // choices:["Gluten", "Gluten, Soybean", "Soybean", "Milk"],
+        choice1: "Gluten",
+        choice2: "Gluten, Soybean",
+        choice3: "Soybean",
+        choice4: "Milk",
         answer: 3
     },
 
     {
         question: "Choose the items that contain Crustaceans allergen",
-        choices:["Crab and Lobster", "Squid and Snail", "Pork and Beef", "Salmon and Trout"],
+        // choices:["Crab and Lobster", "Squid and Snail", "Pork and Beef", "Salmon and Trout"],
+        choice1: "Crab and Lobster",
+        choice2: "Squid and Snail",
+        choice3: "Pork and Beef",
+        choice4: "Salmon and Trout",
         answer: 1
     },
 
     {
         question: "Choose the item that contains Gluten",
-        choices:["Corn", "Potato", "Carrot", "Barley"],
+        // choices:["Corn", "Potato", "Carrot", "Barley"],
+        choice1: "Corn",
+        choice2: "Potato",
+        choice3: "Carrot",
+        choice4: "Barley",
         answer: 4
     },
 
     {
         question: "Choose the right option that gives the correct allergens for this dish: 'Vegan Cannelloni: Quinoa, Pasta, Mushroom, Courgette, Vinegar, Garlic, Salt, Pepper'",
-        choices:["Gluten", "Gluten, Sulphites", "Gluten, Milk", "Egg"],
+        // choices:["Gluten", "Gluten, Sulphites", "Gluten, Milk", "Egg"],
+        choice1: "Gluten",
+        choice2: "Gluten, Sulphites",
+        choice3: "Gluten, Milk",
+        choice4: "Egg",
         answer: 2
     },
 
     {
         question: "Which of the following items contain Milk?",
-        choices:["Peanut Butter", "Margarine", "Coconut Milk", "Butter"],
+        // choices:["Peanut Butter", "Margarine", "Coconut Milk", "Butter"],
+        choice1: "Peanut Butter",
+        choice2: "Margarine",
+        choice3: "Coconut Milk",
+        choice4: "Butter",
         answer: 4
     }
 ];
-
-export {AllergensQuiz};
 
 // Questions that will be in quiz when user choose HACCP category
 let haccpQuestions = [
