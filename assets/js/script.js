@@ -100,16 +100,16 @@ function startAllergensQuiz() {
 function getNewQuestion() {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         // go to end page
-        return window.location.assign('/end.html');
+        return window.location.assign("/end.html");
     }
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     questionText.innerText = currentQuestion.question;
 
-    choices.forEach((choice) => {
-        const number = choice.dataset['number'];
-        choices.innerText = currentQuestion['choice' + number];
+    choices.forEach(choice => {
+        const number = choice.dataset.number;
+        choice.innerText = currentQuestion["choice"+number];
     });
 
     availableQuestions.splice(questionIndex, 1);
@@ -122,7 +122,7 @@ choices.forEach((choice) => {
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset['number'];
+        const selectedAnswer = selectedChoice.dataset["number"];
         getNewQuestion();
     });
 });
