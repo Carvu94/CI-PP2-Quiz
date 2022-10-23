@@ -128,4 +128,11 @@ choices.forEach((choice) => {
     });
 });
 
+// Start Haccp quiz
+function startHaccpQuiz() {
+  questionCounter = 0;
+  score = 0;
+  availableQuestions = [...haccpQuestions];
+  getNewQuestion();
+};
 
