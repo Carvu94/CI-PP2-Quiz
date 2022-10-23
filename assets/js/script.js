@@ -162,19 +162,21 @@ choices.forEach((choice) => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-        // check if answer is correct
+        // check if answer is correct, show next question button and give feedback
         if (selectedAnswer == currentQuestion.answer) {
           incrementScore(CORRECT_BONUS);
           feedback.innerText = "Correct!"
           nextQuestion.style.display = "block";
           feedback.style.display = "block";
         } else {
-          feedback.innerText = `Nope! The answer was ${currentQuestion.answer}`;
+          feedback.innerText = `Nope! The answer was ${currentQuestion.correct}`;
           nextQuestion.style.display = "block";
           feedback.style.display = "block";
         }
         nextQuestion.addEventListener("click", function() {
           getNewQuestion();
+          nextQuestion.style.display = "none";
+          feedback.style.display = "none";
         })
         // getNewQuestion();
     });

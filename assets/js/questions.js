@@ -7,6 +7,7 @@ let allergensQuestions = [
         choice2: "14",
         choice3: "16",
         choice4: "17",
+        correct: "14",
         answer: 2
     },
 
@@ -17,6 +18,7 @@ let allergensQuestions = [
         choice2: "Honey",
         choice3: "Celeriac",
         choice4: "Linseed",
+        correct: "Celeriac",
         answer: 3
     },
 
@@ -27,6 +29,7 @@ let allergensQuestions = [
         choice2: "Wine",
         choice3: "Sesame Oil",
         choice4: "Beer",
+        correct: "Sesame Oil",
         answer: 3
     },
 
@@ -37,6 +40,7 @@ let allergensQuestions = [
         choice2: "Beer",
         choice3: "Milk",
         choice4: "Edamame Bean",
+        correct: "Edamame Bean",
         answer: 4
     },
 
@@ -47,6 +51,7 @@ let allergensQuestions = [
         choice2: "It grows on trees",
         choice3: "It grows by the coast",
         choice4: "It's just special",
+        correct: "It grows from ground",
         answer: 1
     },
 
@@ -57,6 +62,7 @@ let allergensQuestions = [
         choice2: "Gluten, Soybean",
         choice3: "Soybean",
         choice4: "Milk",
+        correct: "Soybean",
         answer: 3
     },
 
@@ -67,6 +73,7 @@ let allergensQuestions = [
         choice2: "Squid and Snail",
         choice3: "Pork and Beef",
         choice4: "Salmon and Trout",
+        correct: "Crab and Lobster",
         answer: 1
     },
 
@@ -77,6 +84,7 @@ let allergensQuestions = [
         choice2: "Potato",
         choice3: "Carrot",
         choice4: "Barley",
+        correct: "Barley",
         answer: 4
     },
 
@@ -87,6 +95,7 @@ let allergensQuestions = [
         choice2: "Gluten, Sulphites",
         choice3: "Gluten, Milk",
         choice4: "Egg",
+        correct: "Gluten, Sulphites",
         answer: 2
     },
 
@@ -97,6 +106,7 @@ let allergensQuestions = [
         choice2: "Margarine",
         choice3: "Coconut Milk",
         choice4: "Butter",
+        correct: "Butter",
         answer: 4
     }
 ];
