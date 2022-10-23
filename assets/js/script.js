@@ -9,6 +9,8 @@ let dietsCategory = document.getElementById("diets");
 let quizHud = document.getElementById("hud");
 const questionText = document.getElementById("question-text");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
+const questionCount = document.getElementById("question-count");
+const scoreCount = document.getElementById("score");
 
 // Wait for the DOM to finish loading
 document.addEventListener("DOMContentLoaded", function () {
@@ -129,12 +131,15 @@ function startDietsQuiz() {
   getNewQuestion();
 };
 
+// Getting new question
 function getNewQuestion() {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         // go to end page
         return window.location.assign("/end.html");
     }
     questionCounter++;
+    questionCount.textContent = `${questionCounter}/${MAX_QUESTIONS}`;
+
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     questionText.innerText = currentQuestion.question;
