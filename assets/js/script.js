@@ -138,7 +138,7 @@ function getNewQuestion() {
         return window.location.assign("/end.html");
     }
     questionCounter++;
-    questionCount.textContent = `${questionCounter}/${MAX_QUESTIONS}`;
+    questionCount.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
@@ -160,7 +160,17 @@ choices.forEach((choice) => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
+
+        if (selectedAnswer == currentQuestion.answer) {
+          incrementScore(CORRECT_BONUS);
+        }
+
         getNewQuestion();
     });
 });
 
+// Increment score function
+function incrementScore (number) {
+  score += number;
+  scoreCount.innerText = score;
+};
