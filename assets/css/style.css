@@ -47,7 +47,7 @@ body {
 /* HUD style */
 
 #hud {
-    display: flex;
+    display: none;
     justify-content: space-between;
 }
 

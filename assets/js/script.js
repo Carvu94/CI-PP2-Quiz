@@ -6,6 +6,7 @@ let allergensCategory = document.getElementById("allergens");
 let haccpCategory = document.getElementById("haccp");
 let healthAndSafetyCategory = document.getElementById("health-and-safety");
 let dietsCategory = document.getElementById("diets");
+let quizHud = document.getElementById("hud");
 const questionText = document.getElementById("question-text");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 
@@ -41,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
   allergensCategory.addEventListener("click", function () {
     categories.style.display = "none";
     questionArea.style.display = "block";
+    quizHud.style.display = "flex";
     startAllergensQuiz();
   });
 
@@ -48,6 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
   haccpCategory.addEventListener("click", function () {
     categories.style.display = "none";
     questionArea.style.display = "block";
+    quizHud.style.display = "flex";
     startHaccpQuiz();
   });
 
@@ -55,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
   healthAndSafetyCategory.addEventListener("click", function () {
     categories.style.display = "none";
     questionArea.style.display = "block";
+    quizHud.style.display = "flex";
     startHealthAndSafetyQuiz();
   });
 
@@ -62,6 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
   dietsCategory.addEventListener("click", function () {
     categories.style.display = "none";
     questionArea.style.display = "block";
+    quizHud.style.display = "flex";
     startDietsQuiz();
   });
 })
