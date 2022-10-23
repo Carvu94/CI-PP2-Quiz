@@ -105,61 +105,101 @@ let allergensQuestions = [
 let haccpQuestions = [
     {
         question:"What is FIFO?",
-        choices:["Football Federation", "Food Federadion", "First in, First out method", ""],
+        // choices:["Football Federation", "Food Federadion", "First in, First out method", ""],
+        choice1: "Football Federation",
+        choice2: "Food Federadion",
+        choice3: "First in, First out method",
+        choice4: "Allergens label",
         answer: 3
     },
 
     {
         question:"What is critical control point?",
-        choices:["A hazard with an easy solution", "The point in a process where a hazard must be prevented, eliminated or reduced", "Workplace doors", "An area of the premises where food safety is most important"],
+        // choices:["A hazard with an easy solution", "The point in a process where a hazard must be prevented, eliminated or reduced", "Workplace doors", "An area of the premises where food safety is most important"],
+        choice1: "A hazard with an easy solution",
+        choice2: "The point in a process where a hazard must be prevented, eliminated or reduced",
+        choice3: "Workplace doors",
+        choice4: "An area of the premises where food safety is most important",
         answer: 2
     },
 
     {
         question:"What is danger zone?",
-        choices:["Temperature of 0 - 5 degrees", "Temperature below -18 degrees", "Temperature above 75 deegrees", "Temperature between 5 and 65 degrees"],
+        // choices:["Temperature of 0 - 5 degrees", "Temperature below -18 degrees", "Temperature above 75 deegrees", "Temperature between 5 and 65 degrees"],
+        choice1: "Temperature of 0 - 5 degrees",
+        choice2: "Temperature below -18 degrees",
+        choice3: "Temperature above 75 deegrees",
+        choice4: "Temperature between 5 and 65 degrees",
         answer: 4
     },
 
     {
         question:"What does HACCP stand for?",
-        choices:["Hazard Analysis and Critical Control Point", "Hazard Analysis and Critical Control Probe", "Hazard Analysis and Cooking Control Point", "Hazard Assessment and Critical Control Point"],
+        // choices:["Hazard Analysis and Critical Control Point", "Hazard Analysis and Critical Control Probe", "Hazard Analysis and Cooking Control Point", "Hazard Assessment and Critical Control Point"],
+        choice1: "Hazard Analysis and Critical Control Point",
+        choice2: "Hazard Analysis and Critical Control Probe",
+        choice3: "Hazard Analysis and Cooking Control Point",
+        choice4: "Hazard Assessment and Critical Control Point",
         answer: 1
     },
 
     {
         question:"How many types of contamination are there?",
-        choices:["1", "6", "4", "2"],
+        // choices:["1", "6", "4", "2"],
+        choice1: "1",
+        choice2: "6",
+        choice3: "4",
+        choice4: "2",
         answer:3
     },
 
     {
         question:"The definition of hazard is...",
-        choices:["Something with the potential to cause harm", "Piece of metal in food", "Mould on food", "Dirt on shoes"],
+        // choices:["Something with the potential to cause harm", "Piece of metal in food", "Mould on food", "Dirt on shoes"],
+        choice1: "Something with the potential to cause harm",
+        choice2: "Piece of metal in food",
+        choice3: "Mould on food",
+        choice4: "Dirt on shoes",
         answer: 1
     },
 
     {
         question:"Why is conducting a hazard analysis important?",
-        choices:["To make a point", "To make food taste better", "To make food look better", "To identify potential hazards"],
+        // choices:["To make a point", "To make food taste better", "To make food look better", "To identify potential hazards"],
+        choice1: "To make a point",
+        choice2: "To make food taste better",
+        choice3: "To make food look better",
+        choice4: "To identify potential hazards",
         answer: 4
     },
 
     {
         question:"How many principles are there in HACCP system?",
-        choices:["4", "7", "15", "9"],
+        // choices:["4", "7", "15", "9"],
+        choice1: "4",
+        choice2: "7",
+        choice3: "15",
+        choice4: "9",
         answer: 2
     },
 
     {
         question:"Why food must be thoroughly cooked to the correct time and temperature combination?",
-        choices:["It helps to improve the taste", "It makes the food look more attractive", "It is a requirement of the law", "It helps to kill harmful microbes that can cause disease"],
+        // choices:["It helps to improve the taste", "It makes the food look more attractive", "It is a requirement of the law", "It helps to kill harmful microbes that can cause disease"],
+        choice1: "It helps to improve the taste",
+        choice2: "It makes the food look more attractive",
+        choice3: "It is a requirement of the law",
+        choice4: "It helps to kill harmful microbes that can cause disease",
         answer: 4
     },
 
     {
         question:"In a place of work, the best way to dry your hands after washing them is to:",
-        choices:["Use a paper towel", "Use a air dryer", "Just shake excess water away", "Use a cotton towel"],
+        // choices:["Use a paper towel", "Use a air dryer", "Just shake excess water away", "Use a cotton towel"],
+        choice1: "Use a paper towel",
+        choice2: "Use a air dryer",
+        choice3: "Just shake excess water away",
+        choice4: "Use a cotton towel",
         answer: 1
     }
 ]

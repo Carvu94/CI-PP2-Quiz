@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
   haccpCategory.addEventListener("click", function () {
     categories.style.display = "none";
     questionArea.style.display = "block";
+    startHaccpQuiz();
   });
 
   // When user select the Health & Safety category the quiz will start with Health & Safety questions
