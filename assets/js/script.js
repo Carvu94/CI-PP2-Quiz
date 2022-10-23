@@ -55,12 +55,14 @@ document.addEventListener("DOMContentLoaded", function () {
   healthAndSafetyCategory.addEventListener("click", function () {
     categories.style.display = "none";
     questionArea.style.display = "block";
+    startHealthAndSafetyQuiz();
   });
 
   // When user select the Diets category the quiz will start with Diets questions
   dietsCategory.addEventListener("click", function () {
     categories.style.display = "none";
     questionArea.style.display = "block";
+    startDietsQuiz();
   });
 })
 
@@ -133,6 +135,20 @@ function startHaccpQuiz() {
   questionCounter = 0;
   score = 0;
   availableQuestions = [...haccpQuestions];
+  getNewQuestion();
+};
+
+function startHealthAndSafetyQuiz() {
+  questionCounter = 0;
+  score = 0;
+  availableQuestions = [...healthAndSafetyQuestions];
+  getNewQuestion();
+};
+
+function startDietsQuiz() {
+  questionCounter = 0;
+  score = 0;
+  availableQuestions = [...dietsQuestions];
   getNewQuestion();
 };
 
