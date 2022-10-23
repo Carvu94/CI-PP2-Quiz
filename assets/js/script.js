@@ -11,6 +11,8 @@ const questionText = document.getElementById("question-text");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const questionCount = document.getElementById("question-count");
 const scoreCount = document.getElementById("score");
+let nextQuestion = document.getElementById("next-question");
+let feedback = document.getElementById("feedback");
 
 // Wait for the DOM to finish loading
 document.addEventListener("DOMContentLoaded", function () {
@@ -160,12 +162,21 @@ choices.forEach((choice) => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-
+        // check if answer is correct
         if (selectedAnswer == currentQuestion.answer) {
           incrementScore(CORRECT_BONUS);
+          feedback.innerText = "Correct!"
+          nextQuestion.style.display = "block";
+          feedback.style.display = "block";
+        } else {
+          feedback.innerText = `Nope! The answer was ${currentQuestion.answer}`;
+          nextQuestion.style.display = "block";
+          feedback.style.display = "block";
         }
-
-        getNewQuestion();
+        nextQuestion.addEventListener("click", function() {
+          getNewQuestion();
+        })
+        // getNewQuestion();
     });
 });
 
