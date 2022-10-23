@@ -33,7 +33,7 @@ body {
     padding: 10px;
     margin: auto;
     box-shadow: 0 0 10px 2px;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 }
@@ -42,6 +42,13 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+/* HUD style */
+
+#hud {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* #quiz-section {

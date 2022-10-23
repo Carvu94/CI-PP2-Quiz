@@ -100,6 +100,30 @@ function startAllergensQuiz() {
     getNewQuestion();
 };
 
+// Start Haccp quiz
+function startHaccpQuiz() {
+  questionCounter = 0;
+  score = 0;
+  availableQuestions = [...haccpQuestions];
+  getNewQuestion();
+};
+
+// Start Health & Safety Quiz
+function startHealthAndSafetyQuiz() {
+  questionCounter = 0;
+  score = 0;
+  availableQuestions = [...healthAndSafetyQuestions];
+  getNewQuestion();
+};
+
+// Start Diets Quiz
+function startDietsQuiz() {
+  questionCounter = 0;
+  score = 0;
+  availableQuestions = [...dietsQuestions];
+  getNewQuestion();
+};
+
 function getNewQuestion() {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         // go to end page
@@ -129,26 +153,4 @@ choices.forEach((choice) => {
         getNewQuestion();
     });
 });
-
-// Start Haccp quiz
-function startHaccpQuiz() {
-  questionCounter = 0;
-  score = 0;
-  availableQuestions = [...haccpQuestions];
-  getNewQuestion();
-};
-
-function startHealthAndSafetyQuiz() {
-  questionCounter = 0;
-  score = 0;
-  availableQuestions = [...healthAndSafetyQuestions];
-  getNewQuestion();
-};
-
-function startDietsQuiz() {
-  questionCounter = 0;
-  score = 0;
-  availableQuestions = [...dietsQuestions];
-  getNewQuestion();
-};
 
