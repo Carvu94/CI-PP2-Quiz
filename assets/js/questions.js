@@ -208,61 +208,101 @@ let haccpQuestions = [
 let healthAndSafetyQuestions = [
     {
         question: "Why is important to wash hands properly?",
-        choices: ["So they look nice", "To be cleaner than other people", "To waste the water", "To prevent spreading of poisoning bacteria"],
+        // choices: ["So they look nice", "To be cleaner than other people", "To waste the water", "To prevent spreading of poisoning bacteria"],
+        choice1: "So they look nice",
+        choice2: "To be cleaner than other people",
+        choice3: "To waste the water",
+        choice4: "To prevent spreading of poisoning bacteria",
         answer: 4
     },
 
     {
         question: "Heavy and glass items should be stored on:",
-        choices: ["Higher shelves", "Middle shelves", "Lower shelves", "Bin"],
+        // choices: ["Higher shelves", "Middle shelves", "Lower shelves", "Bin"],
+        choice1: "Higher shelves",
+        choice2: "Middle shelves",
+        choice3: "Lower shelves",
+        choice4: "Bin",
         answer: 3
     },
 
     {
         question: "In case of spillage, we should:",
-        choices: ["Put a yellow sign and clean", "Tell a manager", "Go home", "Ask someone else to clean"],
+        // choices: ["Put a yellow sign and clean", "Tell a manager", "Go home", "Ask someone else to clean"],
+        choice1: "Put a yellow sign and clean",
+        choice2: "Tell a manager",
+        choice3: "Go home",
+        choice4: "Ask someone else to clean",
         answer: 1
     },
 
     {
         question: "When lifting a heavy load, we should:",
-        choices: ["Show how strong I am", "Assess and lift with knees not backs", "Eat some spinach", "Call security team"],
+        // choices: ["Show how strong I am", "Assess and lift with knees not backs", "Eat some spinach", "Call security team"],
+        choice1: "Show how strong I am",
+        choice2: "Assess and lift with knees not backs",
+        choice3: "Eat some spinach",
+        choice4: "Call security team",
         answer: 2
     },
 
     {
         question: "When handling hot equipment, we should:",
-        choices: ["Just do our job", "Use cutting glove", "Use the kitchen towel and be careful", "Bend your knees"],
+        // choices: ["Just do our job", "Use cutting glove", "Use the kitchen towel and be careful", "Bend your knees"],
+        choice1: "Just do our job",
+        choice2: "Use cutting glove",
+        choice3: "Use the kitchen towel and be careful",
+        choice4: "Bend your knees",
         answer: 3
     },
 
     {
         question: "What does PPE stand for?",
-        choices: ["Protective Preventative Equipment", "Personal Protective Equipment", "People's Protective Equipment", "Personal Protective Establishment"],
+        // choices: ["Protective Preventative Equipment", "Personal Protective Equipment", "People's Protective Equipment", "Personal Protective Establishment"],
+        choice1: "Protective Preventative Equipment",
+        choice2: "Personal Protective Equipment",
+        choice3: "People's Protective Equipment",
+        choice4: "Personal Protective Establishment",
         answer: 2
     },
 
     {
         question: "Which of the following is not classified as a manual handling activity?",
-        choices: ["Throwing", "Pushing", "Carrying", "Pulling"],
+        // choices: ["Throwing", "Pushing", "Carrying", "Pulling"],
+        choice1: "Throwing",
+        choice2: "Pushing",
+        choice3: "Carrying",
+        choice4: "Pulling",
         answer: 1
     },
 
     {
         question: "6.What type of injury is the most common when manual handling?",
-        choices: ["Broken limbs", "Broken heart", "Broken knees", "Muscular and skeletal disorders"],
+        // choices: ["Broken limbs", "Broken heart", "Broken knees", "Muscular and skeletal disorders"],
+        choice1: "Broken limbs",
+        choice2: "Broken heart",
+        choice3: "Broken knees",
+        choice4: "Muscular and skeletal disorders",
         answer: 4
     },
 
     {
         question: "All businesses must have 1st aid kits that are available to:",
-        choices: ["All persons over the age of 18", "A qualified 1st aider", "All staff", "Health and safety officer"],
+        // choices: ["All persons over the age of 18", "A qualified 1st aider", "All staff", "Health and safety officer"],
+        choice1: "All persons over the age of 18",
+        choice2: "A qualified 1st aider",
+        choice3: "All staff",
+        choice4: "Health and safety officer",
         answer: 3
     },
 
     {
         question: "One of the preventive measures to avoid slips, trips and falls is:",
-        choices: ["Wear runners", "Walk, do not run", "Let others clean", "Clean later"],
+        // choices: ["Wear runners", "Walk, do not run", "Let others clean", "Clean later"],
+        choice1: "Wear runners",
+        choice2: "Walk, do not run",
+        choice3: "Let others clean",
+        choice4: "Clean later",
         answer: 2
     }
 ]
@@ -271,61 +311,101 @@ let healthAndSafetyQuestions = [
 let dietsQuestions = [
     {
         question: "Crushed Baby Potato with Scallion: Potato, Salt, Pepper, Scallion, Margarine. Select the diet of the dish.",
-        choices: ["Vegan", "Vegetarian", "Halal", "Non-vegetarian"],
+        // choices: ["Vegan", "Vegetarian", "Halal", "Non-vegetarian"],
+        choice1: "Vegan",
+        choice2: "Vegetarian",
+        choice3: "Halal",
+        choice4: "Non-vegetarian",
         answer: 1
     },
 
     {
         question: "Spicy Buffalo Cauliflower Wings. Ingredients: cauliflower, lasagna sheets, tofu, vegan mozzarella, spinach. Choose the correct diet.",
-        choices: ["Vegan", "Vegetarian", "Halal", "Non-vegetarian"],
+        // choices: ["Vegan", "Vegetarian", "Halal", "Non-vegetarian"],
+        choice1: "Vegan",
+        choice2: "Vegetarian",
+        choice3: "Halal",
+        choice4: "Non-vegetarian",
         answer: 1
     },
 
     {
         question: "Choose the item that could turn a vegan dish into vegetarian.",
-        choices: ["Maple Syrup", "Honey", "Pork", "Carrot"],
+        // choices: ["Maple Syrup", "Honey", "Pork", "Carrot"],
+        choice1: "Maple Syrup",
+        choice2: "Honey",
+        choice3: "Pork",
+        choice4: "Carrot",
         answer: 2
     },
 
     {
         question: "Parmesan with Animal-Rennet is:",
-        choices: ["Vegan", "Vegetarian", "Halal", "Non-vegetarian"],
+        // choices: ["Vegan", "Vegetarian", "Halal", "Non-vegetarian"],
+        choice1: "Vegan",
+        choice2: "Vegetarian",
+        choice3: "Halal",
+        choice4: "Non-vegetarian",
         answer: 4
     },
 
     {
         question: "Which of the following items is suitable for customers who are vegetarian?",
-        choices: ["Egg", "Pork Gelatin", "Chicken Wings", "Salmon"],
+        // choices: ["Egg", "Pork Gelatin", "Chicken Wings", "Salmon"],
+        choice1: "Egg",
+        choice2: "Pork Gelatin",
+        choice3: "Chicken Wings",
+        choice4: "Salmon",
         answer: 1
     },
 
     {
         question: "Which of the following items are suitable for customers who are vegan?",
-        choices: ["Yogurt", "Egg", "Honey", "Maple Syrup"],
+        // choices: ["Yogurt", "Egg", "Honey", "Maple Syrup"],
+        choice1: "Yogurt",
+        choice2: "Egg",
+        choice3: "Honey",
+        choice4: "Maple Syrup",
         answer: 4
     },
 
     {
         question: "Which of the following items are Halal?",
-        choices: ["Pork Sausage", "Lamb Mince", "Ham", "Parmesan"],
+        // choices: ["Pork Sausage", "Lamb Mince", "Ham", "Parmesan"],
+        choice1: "Pork Sausage",
+        choice2: "Lamb Mince",
+        choice3: "Ham",
+        choice4: "Parmesan",
         answer: 2
     },
 
     {
         question: "Can a vegetarian food item contain honey and cream?",
-        choices: ["Sometimes", "No", "Yes", "Maybe"],
+        // choices: ["Sometimes", "No", "Yes", "Maybe"],
+        choice1: "Sometimes",
+        choice2: "No",
+        choice3: "Yes",
+        choice4: "Maybe",
         answer: 3
     },
 
     {
         question: "Which of the following food items is suitable for both vegan and vegetarian diets?",
-        choices: ["Honey", "Trout", "Margarine", "Parmesan"],
+        // choices: ["Honey", "Trout", "Margarine", "Parmesan"],
+        choice1: "Honey",
+        choice2: "Trout",
+        choice3: "Margarine",
+        choice4: "Parmesan",
         answer: 3
     },
 
     {
         question: "Which of the following food items is not suitable for Halal diet?",
-        choices: ["Turkey", "Hake", "Cod", "Gammon"],
+        // choices: ["Turkey", "Hake", "Cod", "Gammon"],
+        choice1: "Turkey",
+        choice2: "Hake",
+        choice3: "Cod",
+        choice4: "Gammon",
         answer: 4
     }
 ]
