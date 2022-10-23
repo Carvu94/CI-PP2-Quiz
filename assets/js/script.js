@@ -173,13 +173,15 @@ choices.forEach((choice) => {
           nextQuestion.style.display = "block";
           feedback.style.display = "block";
         }
-        nextQuestion.addEventListener("click", function() {
-          getNewQuestion();
-          nextQuestion.style.display = "none";
-          feedback.style.display = "none";
-        })
         // getNewQuestion();
     });
+});
+
+// Event listener for Next Question button
+nextQuestion.addEventListener("click", function() {
+  getNewQuestion();
+  nextQuestion.style.display = "none";
+  feedback.style.display = "none";
 });
 
 // Increment score function
