@@ -120,6 +120,7 @@ let haccpQuestions = [
         choice2: "Food Federadion",
         choice3: "First in, First out method",
         choice4: "Allergens label",
+        correct: "First in, First out method",
         answer: 3
     },
 
@@ -130,6 +131,7 @@ let haccpQuestions = [
         choice2: "The point in a process where a hazard must be prevented, eliminated or reduced",
         choice3: "Workplace doors",
         choice4: "An area of the premises where food safety is most important",
+        correct: "The point in a process where a hazard must be prevented, eliminated or reduced",
         answer: 2
     },
 
@@ -140,6 +142,7 @@ let haccpQuestions = [
         choice2: "Temperature below -18 degrees",
         choice3: "Temperature above 75 deegrees",
         choice4: "Temperature between 5 and 65 degrees",
+        correct: "Temperature between 5 and 65 degrees",
         answer: 4
     },
 
@@ -150,6 +153,7 @@ let haccpQuestions = [
         choice2: "Hazard Analysis and Critical Control Probe",
         choice3: "Hazard Analysis and Cooking Control Point",
         choice4: "Hazard Assessment and Critical Control Point",
+        correct: "Hazard Analysis and Critical Control Point",
         answer: 1
     },
 
@@ -160,6 +164,7 @@ let haccpQuestions = [
         choice2: "6",
         choice3: "4",
         choice4: "2",
+        correct: "4",
         answer:3
     },
 
@@ -170,6 +175,7 @@ let haccpQuestions = [
         choice2: "Piece of metal in food",
         choice3: "Mould on food",
         choice4: "Dirt on shoes",
+        correct: "Something with the potential to cause harm",
         answer: 1
     },
 
@@ -180,6 +186,7 @@ let haccpQuestions = [
         choice2: "To make food taste better",
         choice3: "To make food look better",
         choice4: "To identify potential hazards",
+        correct: "To identify potential hazards",
         answer: 4
     },
 
@@ -190,6 +197,7 @@ let haccpQuestions = [
         choice2: "7",
         choice3: "15",
         choice4: "9",
+        correct: "7",
         answer: 2
     },
 
@@ -200,6 +208,7 @@ let haccpQuestions = [
         choice2: "It makes the food look more attractive",
         choice3: "It is a requirement of the law",
         choice4: "It helps to kill harmful microbes that can cause disease",
+        correct: "It helps to kill harmful microbes that can cause disease",
         answer: 4
     },
 
@@ -210,6 +219,7 @@ let haccpQuestions = [
         choice2: "Use a air dryer",
         choice3: "Just shake excess water away",
         choice4: "Use a cotton towel",
+        correct: "Use a paper towel",
         answer: 1
     }
 ]
@@ -223,6 +233,7 @@ let healthAndSafetyQuestions = [
         choice2: "To be cleaner than other people",
         choice3: "To waste the water",
         choice4: "To prevent spreading of poisoning bacteria",
+        correct: "To prevent spreading of poisoning bacteria",
         answer: 4
     },
 
@@ -233,6 +244,7 @@ let healthAndSafetyQuestions = [
         choice2: "Middle shelves",
         choice3: "Lower shelves",
         choice4: "Bin",
+        correct: "Lower shelves",
         answer: 3
     },
 
@@ -243,6 +255,7 @@ let healthAndSafetyQuestions = [
         choice2: "Tell a manager",
         choice3: "Go home",
         choice4: "Ask someone else to clean",
+        correct: "Put a yellow sign and clean",
         answer: 1
     },
 
@@ -253,6 +266,7 @@ let healthAndSafetyQuestions = [
         choice2: "Assess and lift with knees not backs",
         choice3: "Eat some spinach",
         choice4: "Call security team",
+        correct: "Assess and lift with knees not backs",
         answer: 2
     },
 
@@ -263,6 +277,7 @@ let healthAndSafetyQuestions = [
         choice2: "Use cutting glove",
         choice3: "Use the kitchen towel and be careful",
         choice4: "Bend your knees",
+        correct: "Use the kitchen towel and be careful",
         answer: 3
     },
 
@@ -273,6 +288,7 @@ let healthAndSafetyQuestions = [
         choice2: "Personal Protective Equipment",
         choice3: "People's Protective Equipment",
         choice4: "Personal Protective Establishment",
+        correct: "Personal Protective Equipment",
         answer: 2
     },
 
@@ -283,6 +299,7 @@ let healthAndSafetyQuestions = [
         choice2: "Pushing",
         choice3: "Carrying",
         choice4: "Pulling",
+        correct: "Throwing",
         answer: 1
     },
 
@@ -293,6 +310,7 @@ let healthAndSafetyQuestions = [
         choice2: "Broken heart",
         choice3: "Broken knees",
         choice4: "Muscular and skeletal disorders",
+        correct: "Muscular and skeletal disorders",
         answer: 4
     },
 
@@ -303,6 +321,7 @@ let healthAndSafetyQuestions = [
         choice2: "A qualified 1st aider",
         choice3: "All staff",
         choice4: "Health and safety officer",
+        correct: "All staff",
         answer: 3
     },
 
@@ -313,6 +332,7 @@ let healthAndSafetyQuestions = [
         choice2: "Walk, do not run",
         choice3: "Let others clean",
         choice4: "Clean later",
+        correct: "Walk, do not run",
         answer: 2
     }
 ]
@@ -326,6 +346,7 @@ let dietsQuestions = [
         choice2: "Vegetarian",
         choice3: "Halal",
         choice4: "Non-vegetarian",
+        correct: "Vegan",
         answer: 1
     },
 
@@ -336,6 +357,7 @@ let dietsQuestions = [
         choice2: "Vegetarian",
         choice3: "Halal",
         choice4: "Non-vegetarian",
+        correct: "Vegan",
         answer: 1
     },
 
@@ -346,6 +368,7 @@ let dietsQuestions = [
         choice2: "Honey",
         choice3: "Pork",
         choice4: "Carrot",
+        correct: "Honey",
         answer: 2
     },
 
@@ -356,6 +379,7 @@ let dietsQuestions = [
         choice2: "Vegetarian",
         choice3: "Halal",
         choice4: "Non-vegetarian",
+        correct: "Non-vegetarian",
         answer: 4
     },
 
@@ -366,6 +390,7 @@ let dietsQuestions = [
         choice2: "Pork Gelatin",
         choice3: "Chicken Wings",
         choice4: "Salmon",
+        correct: "Egg",
         answer: 1
     },
 
@@ -376,6 +401,7 @@ let dietsQuestions = [
         choice2: "Egg",
         choice3: "Honey",
         choice4: "Maple Syrup",
+        correct: "Maple Syrup",
         answer: 4
     },
 
@@ -386,6 +412,7 @@ let dietsQuestions = [
         choice2: "Lamb Mince",
         choice3: "Ham",
         choice4: "Parmesan",
+        correct: "Lamb Mince",
         answer: 2
     },
 
@@ -396,6 +423,7 @@ let dietsQuestions = [
         choice2: "No",
         choice3: "Yes",
         choice4: "Maybe",
+        correct: "Yes",
         answer: 3
     },
 
@@ -406,6 +434,7 @@ let dietsQuestions = [
         choice2: "Trout",
         choice3: "Margarine",
         choice4: "Parmesan",
+        correct: "Margarine",
         answer: 3
     },
 
@@ -416,6 +445,7 @@ let dietsQuestions = [
         choice2: "Hake",
         choice3: "Cod",
         choice4: "Gammon",
+        correct: "Gammon",
         answer: 4
     }
 ]
