@@ -16,7 +16,10 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
-    background-color: #00a700;
+    /* background-color: #00a700; */
+    background: url(../images/pexels-chan-walrus-958545\ \(1\).jpg);
+    background-size: cover;
+
 }
 
 #quiz-section {
@@ -28,7 +31,8 @@ body {
     width: 800px;
     max-width: 80%;
     height: 500px;
-    background: rgba(237, 231, 225, 0.4);
+    background: rgba(0, 186, 97, 0.6);
+    /* background: rgba(237, 231, 225, 0.6); */
     border-radius: 5px;
     padding: 10px;
     margin: auto;
@@ -48,7 +52,7 @@ body {
 
 #hud {
     display: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 /* #quiz-section {
@@ -86,8 +90,8 @@ header h1 {
     font-size: 60px;
     font-weight: 500;
     color: #fdfdfe;
-    text-shadow: 0px 0px 5px #d5d06d, 0px 0px 10px #d5d06d, 0px 0px 10px #d5d06d,
-      0px 0px 20px #d5d06d;
+    text-shadow: 0px 0px 5px #00a700, 0px 0px 10px #00a700, 0px 0px 10px #00a700,
+      0px 0px 20px #00a700;
   }
 /* d3d093 */
 /* Footer */
