@@ -13,6 +13,9 @@ const questionCount = document.getElementById("question-count");
 const scoreCount = document.getElementById("score");
 let nextQuestion = document.getElementById("next-question");
 let feedback = document.getElementById("feedback");
+let resultsButton = document.getElementById("results");
+let finalPage = document.getElementById("final-score");
+let ansButtons = document.getElementById("ans-buttons");
 
 // Wait for the DOM to finish loading
 document.addEventListener("DOMContentLoaded", function () {
@@ -136,8 +139,11 @@ function startDietsQuiz() {
 // Getting new question
 function getNewQuestion() {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-        // go to end page
-        return window.location.assign("/end.html");
+        // go to final score
+        resultsButton.classList.remove("hide");
+        nextQuestion.style.display = "none";
+        // finalScore();
+        // return window.location.assign("/end.html");
     }
     questionCounter++;
     questionCount.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
@@ -155,6 +161,7 @@ function getNewQuestion() {
     acceptingAnswers = true;
 };
 
+// Get user answer
 choices.forEach((choice) => {
     choice.addEventListener("click", (e) => {
         if (!acceptingAnswers) return;
@@ -189,3 +196,26 @@ function incrementScore (number) {
   score += number;
   scoreCount.innerText = score;
 };
+
+// Event listener for results button
+resultsButton.addEventListener("click", function() {
+  quizHud.style.display = "none";
+  feedback.style.display = "none";
+  // buttonContainer.style.display = "none";
+  questionArea.style.display = "none";
+  finalPage.style.display = "block";
+  resultsButton.classList.add("hide");
+  ansButtons.style.display = "none";
+})
+// function finalScore() {
+//   if (questionCounter >= MAX_QUESTIONS) {
+//     buttonContainer.classList.add("hide");
+//     questionArea.classList.add("hide");
+//     finalPage.classList.add("hide");
+
+    // buttonContainer.style.display = "none";
+    // questionArea.style.display = "none";
+    // finalPage.style.display = "block";
+  
+//   }
+// }

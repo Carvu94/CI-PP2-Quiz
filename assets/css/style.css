@@ -71,6 +71,10 @@ body {
     display: none;
 }
 
+#final-score {
+    display: none;
+}
+
 /* #score {
     display: none;
 } */
