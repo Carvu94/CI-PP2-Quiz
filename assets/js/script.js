@@ -142,6 +142,7 @@ function getNewQuestion() {
         // go to final score
         resultsButton.classList.remove("hide");
         nextQuestion.style.display = "none";
+        return;
         // finalScore();
         // return window.location.assign("/end.html");
     }
