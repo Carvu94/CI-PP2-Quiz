@@ -158,11 +158,13 @@ button {
     font-size: 110%;
     border: 1px solid;
     width: 200px;
-    height: 55px;
+    min-height: 55px;
+    height: auto;
     display: block;
     margin: 0 auto;
     margin-top: 20px;
     cursor: pointer;
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
