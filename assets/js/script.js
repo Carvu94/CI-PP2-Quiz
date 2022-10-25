@@ -16,6 +16,10 @@ let feedback = document.getElementById("feedback");
 let resultsButton = document.getElementById("results");
 let finalPage = document.getElementById("final-score");
 let ansButtons = document.getElementById("ans-buttons");
+let finalScore = document.getElementById("finished-quiz-score");
+let finalFeedback = document.getElementById("final-feedback");
+let playAgainButton = document.getElementById("play-again");
+let goHome = document.getElementById("go-home");
 
 // Wait for the DOM to finish loading
 document.addEventListener("DOMContentLoaded", function () {
@@ -173,7 +177,7 @@ choices.forEach((choice) => {
         // check if answer is correct, show next question button and give feedback
         if (selectedAnswer == currentQuestion.answer) {
           incrementScore(CORRECT_BONUS);
-          feedback.innerText = "Correct!"
+          feedback.innerText = "Correct!";
           nextQuestion.style.display = "block";
           feedback.style.display = "block";
         } else {
@@ -207,7 +211,36 @@ resultsButton.addEventListener("click", function() {
   finalPage.style.display = "block";
   resultsButton.classList.add("hide");
   ansButtons.style.display = "none";
-})
+  finalScore.innerText = `Your score is: ${score}`;
+  // checkFinalScore();
+});
+
+// Event listener for play again button
+
+playAgainButton.addEventListener("click", function() {
+  location.reload();
+});
+
+// function checkFinalScore() {
+//   let minScore = "50";
+//   let midScore = "80";
+//   let greatScore = "99"
+//   let maxScore = "100";
+
+
+
+//   if (score <= minScore.innerText) {
+//     finalFeedback.innerText = "You can do better! There is more training to do."
+//   } else if (score <= midScore.innerText) {
+//     finalFeedback.innerText = "Amazing! Great Job!"
+//   } else if (score <= greatScore.innerText) {
+//     finalFeedback.innerText = "Almost Perfect! You are killing it!"
+//   } else if (score > greatScore.innerText) {
+//     finalFeedback.innerText = "Perfect! Can't be better!"
+//   } else {
+
+//   };
+// };
 // function finalScore() {
 //   if (questionCounter >= MAX_QUESTIONS) {
 //     buttonContainer.classList.add("hide");
