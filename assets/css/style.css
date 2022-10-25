@@ -52,6 +52,14 @@ h3, h2 {
     text-align: center;
 }
 
+#homepage-container h2 {
+    font-size: 2.5em;
+}
+
+#homepage-container h3 {
+    font-size: 1.5em;
+}
+
 /* HUD style */
 
 #hud {
@@ -155,7 +163,6 @@ li {
 button {
     color: white;
     background-color: #00ba61;
-    border-color: black;
     font-size: 110%;
     border: 1px solid;
     width: 200px;
