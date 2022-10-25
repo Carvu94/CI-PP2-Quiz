@@ -89,6 +89,12 @@ h3, h2 {
     display: none;
 }
 
+#feedback {
+    color: black;
+    font-size: 150%;
+    text-align: center;
+}
+
 /* #score {
     display: none;
 } */
