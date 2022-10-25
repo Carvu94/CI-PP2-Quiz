@@ -251,3 +251,45 @@ button > i {
     color: black;
     cursor: pointer;
 }
+
+/* Media queries */
+
+/* For screens 425px wide and down */
+@media screen and (max-width: 425px) {
+    .modal-content {
+        width: 90%;
+        height: 450px;
+    }
+
+    #homepage-container h2 {
+        font-size: 2em;
+    }
+    
+    #homepage-container h3 {
+        font-size: 1em;
+    }
+    
+    button {
+        font-size: 80%;
+        width: 150px;
+    }
+
+    .quiz-container {
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+
+    h2,h3 {
+        font-size: 1.5em;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    #question-text {
+        padding-top: 10px;
+        font-size: 100%;
+    }
+}
+    
