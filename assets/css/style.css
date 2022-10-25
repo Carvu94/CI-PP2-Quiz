@@ -20,7 +20,10 @@ body {
     background: url(../images/pexels-chan-walrus-958545\ \(1\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
 
+h3, h2 {
+    font-size: 2em;
 }
 
 #quiz-section {
@@ -56,6 +59,11 @@ body {
     justify-content: space-evenly;
 }
 
+.hud-prefix {
+    color: black;
+    font-size: 120%;
+}
+
 /* #quiz-section {
     margin: auto;
     display: flex;
@@ -69,6 +77,12 @@ body {
 
 #question-area {
     display: none;
+}
+
+#question-text {
+    font-size: 150%;
+    font-weight: 700;
+    text-align: center;
 }
 
 #final-score {
@@ -135,6 +149,7 @@ li {
 button {
     color: black;
     background-color: #00ba61;
+    font-size: 110%;
     border: 1px solid;
     width: 200px;
     height: 55px;
