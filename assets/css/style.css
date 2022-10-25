@@ -153,8 +153,9 @@ li {
 /* buttons style */
 
 button {
-    color: black;
+    color: white;
     background-color: #00ba61;
+    border-color: black;
     font-size: 110%;
     border: 1px solid;
     width: 200px;
@@ -165,7 +166,7 @@ button {
     margin-top: 20px;
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
 }
 
 button:hover {
@@ -187,11 +188,12 @@ button:hover {
 }
 
 .modal-content {
+    color: white;
     background-color: #00ba61;
     margin: 10% auto;
     padding: 20px;
     border: 1px solid #00ba61;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 40%;
     height: 425px;
 }
