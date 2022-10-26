@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Training quiz for people in hospitality"/>
-    <meta name="keywords" content="quiz, training, hospitality, allergens, haccp, diets, health and safety"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Training quiz for people in hospitality">
+    <meta name="keywords" content="quiz, training, hospitality, allergens, haccp, diets, health and safety">
 
     <!-- CSS link -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Training Assistant</title>
 
     <!-- Favicon from favicon.io -->
@@ -32,11 +32,11 @@
 
         <!-- Quiz hud showing question number and score -->
         <div id="hud">
-          <div id="hud-item">
+          <div>
             <p class="hud-prefix">Question</p>
             <h2 class="hud-main" id="question-count">1/10</h2>
           </div>
-          <div id="hud-item">
+          <div>
             <p class="hud-prefix">Score</p>
             <h2 class="hud-main" id="score">0</h2>
           </div>
@@ -57,7 +57,7 @@
           <div>
             <h3>Please pick the category of the quiz</h3>
           </div>
-          <div class="button-container">
+          <div>
             <button id="allergens">Allergens</button>
             <button id="haccp">HACCP</button>
             <button id="health-and-safety">Health & Safety</button>
@@ -68,20 +68,20 @@
         <!-- Questions area - appears after the category is picked -->
         <div id="question-area">
           <div id="question-text"></div>
-          <divclass="button-container">
+          <div>
             <button class="choice-text" data-number="1">Answer 1</button>
             <button class="choice-text" data-number="2">Answer 2</button>
             <button class="choice-text" data-number="3">Answer 3</button>
             <button class="choice-text" data-number="4">Answer 4</button>
           </div>
           <!-- Next question and Results buttons -->
-          <div  id= "ans-buttons" class="button-container">
+          <div  id= "ans-buttons">
             <p id="feedback" class="hide"></p>
             <button id="next-question" class="hide">Next Question</button>
             <button id="results" class="hide">Results</button>
           </div>
           <!-- Final Score -->
-          <div id="final-score" class="button-container">
+          <div id="final-score">
             <h3 id="final-feedback">Congratulations! You completed the quiz!</h3>
             <h3 id="finished-quiz-score">Your score is:</h3>
             <button id="play-again"><i class="fas fa-redo"></i> Play Again</button>
@@ -95,7 +95,7 @@
           <span class="close"><i class="far fa-times-circle"></i></span>
           <div class="modal-text">
             <h3><i class="fas fa-info"></i>About us</h3>
-            <br />
+            <br>
             <p>
               Our main goal is to help managers in hospitality industry to train
               and improve knowledge of their front and back of house staff on
