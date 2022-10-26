@@ -71,6 +71,7 @@ h3, h2 {
 
 #category-pick {
     display: none;
+    text-align: center;
 }
 
 #question-area {
