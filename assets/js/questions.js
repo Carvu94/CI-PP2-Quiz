@@ -41,7 +41,7 @@ let allergensQuestions = [
     },
 
     {
-        question: "Why is Peanut different allergen then Nuts?",
+        question: "Why is a Peanut different allergen than Nuts?",
         choice1: "It grows from ground",
         choice2: "It grows on trees",
         choice3: "It grows by the coast",
@@ -61,7 +61,7 @@ let allergensQuestions = [
     },
 
     {
-        question: "Choose the items that contain Crustaceans allergen",
+        question: "Choose the items that contain a Crustaceans allergen",
         choice1: "Crab and Lobster",
         choice2: "Squid and Snail",
         choice3: "Pork and Beef",
@@ -114,7 +114,7 @@ let haccpQuestions = [
     },
 
     {
-        question:"What is critical control point?",
+        question:"What is known as a critical control point?",
         choice1: "A hazard with an easy solution",
         choice2: "The point in a process where a hazard must be prevented, eliminated or reduced",
         choice3: "Workplace doors",
@@ -154,7 +154,7 @@ let haccpQuestions = [
     },
 
     {
-        question:"The definition of hazard is...",
+        question:"The definition of a hazard is...",
         choice1: "Something with the potential to cause harm",
         choice2: "Piece of metal in food",
         choice3: "Mould on food",
@@ -207,7 +207,7 @@ let haccpQuestions = [
 // Questions that will be in quiz when user choose Health & Safety category
 let healthAndSafetyQuestions = [
     {
-        question: "Why is important to wash hands properly?",
+        question: "Why is it important to wash hands properly?",
         choice1: "So they look nice",
         choice2: "To be cleaner than other people",
         choice3: "To waste the water",
@@ -227,7 +227,7 @@ let healthAndSafetyQuestions = [
     },
 
     {
-        question: "In case of spillage, we should:",
+        question: "In case of a spillage, we should:",
         choice1: "Put a yellow sign and clean",
         choice2: "Tell a manager",
         choice3: "Go home",
@@ -320,7 +320,7 @@ let dietsQuestions = [
     },
 
     {
-        question: "Spicy Buffalo Cauliflower Wings. Ingredients: cauliflower, lasagna sheets, tofu, vegan mozzarella, spinach. Choose the correct diet.",
+        question: "Spicy Buffalo Cauliflower Wings. Ingredients: cauliflower, lasagne sheets, tofu, vegan mozzarella, spinach. Choose the correct diet.",
         choice1: "Vegan",
         choice2: "Vegetarian",
         choice3: "Halal",
@@ -360,7 +360,7 @@ let dietsQuestions = [
     },
 
     {
-        question: "Which of the following items is suitable for customers who are vegan?",
+        question: "Which of the following items are suitable for customers who are vegan?",
         choice1: "Yogurt",
         choice2: "Egg",
         choice3: "Honey",
@@ -370,7 +370,7 @@ let dietsQuestions = [
     },
 
     {
-        question: "Which of the following items is Halal?",
+        question: "Which of the following items are Halal?",
         choice1: "Pork Sausage",
         choice2: "Lamb Mince",
         choice3: "Ham",
@@ -390,7 +390,7 @@ let dietsQuestions = [
     },
 
     {
-        question: "Which of the following food items is suitable for both vegan and vegetarian diets?",
+        question: "Which of the following food items are suitable for both vegan and vegetarian diets?",
         choice1: "Honey",
         choice2: "Trout",
         choice3: "Margarine",
@@ -400,7 +400,7 @@ let dietsQuestions = [
     },
 
     {
-        question: "Which of the following food items is not suitable for Halal diet?",
+        question: "Which of the following food items are not suitable for Halal diet?",
         choice1: "Turkey",
         choice2: "Hake",
         choice3: "Cod",
