@@ -17,9 +17,7 @@ let resultsButton = document.getElementById("results");
 let finalPage = document.getElementById("final-score");
 let ansButtons = document.getElementById("ans-buttons");
 let finalScore = document.getElementById("finished-quiz-score");
-let finalFeedback = document.getElementById("final-feedback");
 let playAgainButton = document.getElementById("play-again");
-let goHome = document.getElementById("go-home");
 
 // Wait for the DOM to finish loading
 document.addEventListener("DOMContentLoaded", function () {
@@ -82,22 +80,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 })
 
-// Create random numbers for the quiz to shuffle the questions
-
-// let nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-// let ranNums = [];
-// let i = nums.length;
-// let j = 0;
-
-// while (i--) {
-//   j = Math.floor(Math.random() * (i + 1));
-//   ranNums.push(nums[j]);
-//   nums.splice(j, 1);
-// }
-
-// let currentQuestionIndex = ranNums[0];
-// let x = 1;
-
 // let currentQuestion = {};
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
@@ -147,8 +129,6 @@ function getNewQuestion() {
         resultsButton.classList.remove("hide");
         nextQuestion.style.display = "none";
         return;
-        // finalScore();
-        // return window.location.assign("/end.html");
     }
     questionCounter++;
     questionCount.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
@@ -185,7 +165,6 @@ choices.forEach((choice) => {
           nextQuestion.style.display = "block";
           feedback.style.display = "block";
         }
-        // getNewQuestion();
     });
 });
 
@@ -206,13 +185,11 @@ function incrementScore (number) {
 resultsButton.addEventListener("click", function() {
   quizHud.style.display = "none";
   feedback.style.display = "none";
-  // buttonContainer.style.display = "none";
   questionArea.style.display = "none";
   finalPage.style.display = "block";
   resultsButton.classList.add("hide");
   ansButtons.style.display = "none";
   finalScore.innerText = `Your score is: ${score}`;
-  // checkFinalScore();
 });
 
 // Event listener for play again button
@@ -221,35 +198,5 @@ playAgainButton.addEventListener("click", function() {
   location.reload();
 });
 
-// function checkFinalScore() {
-//   let minScore = "50";
-//   let midScore = "80";
-//   let greatScore = "99"
-//   let maxScore = "100";
 
 
-
-//   if (score <= minScore.innerText) {
-//     finalFeedback.innerText = "You can do better! There is more training to do."
-//   } else if (score <= midScore.innerText) {
-//     finalFeedback.innerText = "Amazing! Great Job!"
-//   } else if (score <= greatScore.innerText) {
-//     finalFeedback.innerText = "Almost Perfect! You are killing it!"
-//   } else if (score > greatScore.innerText) {
-//     finalFeedback.innerText = "Perfect! Can't be better!"
-//   } else {
-
-//   };
-// };
-// function finalScore() {
-//   if (questionCounter >= MAX_QUESTIONS) {
-//     buttonContainer.classList.add("hide");
-//     questionArea.classList.add("hide");
-//     finalPage.classList.add("hide");
-
-    // buttonContainer.style.display = "none";
-    // questionArea.style.display = "none";
-    // finalPage.style.display = "block";
-  
-//   }
-// }
