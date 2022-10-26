@@ -202,7 +202,7 @@ let haccpQuestions = [
         correct: "Use a paper towel",
         answer: 1
     }
-]
+];
 
 // Questions that will be in quiz when user choose Health & Safety category
 let healthAndSafetyQuestions = [
@@ -305,7 +305,7 @@ let healthAndSafetyQuestions = [
         correct: "Walk, do not run",
         answer: 2
     }
-]
+];
 
 // Questions that will be in quiz when user choose Diets category
 let dietsQuestions = [
@@ -408,4 +408,4 @@ let dietsQuestions = [
         correct: "Gammon",
         answer: 4
     }
-]
+];
