@@ -9,6 +9,7 @@
     border: none;
 }
 
+/* Body */
 body {
     font-family: 'Ubuntu', sans-serif;
     color: black;
@@ -24,6 +25,7 @@ h3, h2 {
     font-size: 2em;
 }
 
+/* Quiz containers and section */
 #quiz-section {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -38,7 +40,7 @@ h3, h2 {
     padding: 10px;
     margin: auto;
     box-shadow: 0 0 10px 2px;
-    display: grid;
+    display: block;
     justify-content: center;
     align-items: center;
 }
@@ -47,14 +49,20 @@ h3, h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 30px 0;
 }
 
 #homepage-container h2 {
     font-size: 2.5em;
+    padding-bottom: 20px;
 }
 
 #homepage-container h3 {
     font-size: 1.5em;
+}
+
+#category-pick h3 {
+    padding: 30px 0;
 }
 
 /* HUD style */
@@ -62,6 +70,7 @@ h3, h2 {
 #hud {
     display: none;
     justify-content: space-evenly;
+    padding: 30px 0;
 }
 
 .hud-prefix {
@@ -96,10 +105,6 @@ h3, h2 {
     padding-top: 30px;
 }
 
-/* #score {
-    display: none;
-} */
-
 /* Header */
 
 header {
@@ -123,8 +128,8 @@ header h1 {
     text-shadow: 0px 0px 5px black, 0px 0px 10px black, 0px 0px 10px black,
       0px 0px 20px black;
   }
-/* d3d093 */
-/* Footer */
+
+  /* Footer */
 
 footer {
     width: 100%;
@@ -174,6 +179,10 @@ button:hover {
 
 button > i {
     padding-right: 10px;
+}
+
+#info-button {
+    margin-top: 100px;
 }
 
 #play-again, #results, #next-question {
@@ -228,6 +237,7 @@ button > i {
 .modal-text i {
     padding-right: 20px;
 }
+
 /* close, close:hover, and close:focus code mostly taken from W3 Schools site on modal windows: https://www.w3schools.com/howto/howto_css_modals.asp */
 
 .close {
@@ -272,6 +282,10 @@ button > i {
         font-size: 80%;
         width: 150px;
     }
+
+    #info-button {
+        margin-top: 50px;
+    }    
 
     .quiz-container {
         height: fit-content;
