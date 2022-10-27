@@ -96,6 +96,7 @@ h3, h2 {
 #final-score {
     display: none;
     text-align: center;
+    margin-top: 150px;
 }
 
 #feedback {
@@ -183,6 +184,10 @@ button > i {
 
 #info-button {
     margin-top: 100px;
+}
+
+#play-again {
+    margin-top: 50px;
 }
 
 #play-again, #results, #next-question {

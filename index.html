@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Training quiz for people in hospitality">
-    <meta name="keywords" content="quiz, training, hospitality, allergens, haccp, diets, health and safety">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Training quiz for people in hospitality"
+    />
+    <meta
+      name="keywords"
+      content="quiz, training, hospitality, allergens, haccp, diets, health and safety"
+    />
 
     <!-- CSS link -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Training Assistant</title>
 
     <!-- Favicon from favicon.io -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
   </head>
 
   <body>
@@ -29,7 +49,6 @@
     <!-- Quiz section -->
     <section id="quiz-section">
       <div class="quiz-container">
-
         <!-- Quiz hud showing question number and score -->
         <div id="hud">
           <div>
@@ -41,13 +60,15 @@
             <h2 class="hud-main" id="score">0</h2>
           </div>
         </div>
-  
+
         <div id="homepage-container">
           <h2>Welcome to the Training Assistant!</h2>
           <h3>
             Test your Allergens, HACCP, Health & Safety and Diets knowledge.
           </h3>
-          <button id="info-button"><i class="fas fa-info"></i> About Quiz</button>
+          <button id="info-button">
+            <i class="fas fa-info"></i> About Quiz
+          </button>
           <button id="start"><i class="fas fa-play"></i> Start the Quiz</button>
         </div>
 
@@ -75,17 +96,19 @@
             <button class="choice-text" data-number="4">Answer 4</button>
           </div>
           <!-- Next question and Results buttons -->
-          <div  id= "ans-buttons">
+          <div id="ans-buttons">
             <p id="feedback" class="hide"></p>
             <button id="next-question" class="hide">Next Question</button>
             <button id="results" class="hide">Results</button>
           </div>
-          <!-- Final Score -->
-          <div id="final-score">
-            <h3 id="final-feedback">Congratulations! You completed the quiz!</h3>
-            <h3 id="finished-quiz-score">Your score is:</h3>
-            <button id="play-again"><i class="fas fa-redo"></i> Play Again</button>
-          </div>  
+        </div>
+        <!-- Final Score -->
+        <div id="final-score">
+          <h3 id="final-feedback">Congratulations! You completed the quiz!</h3>
+          <h3 id="finished-quiz-score">Your score is:</h3>
+          <button id="play-again">
+            <i class="fas fa-redo"></i> Play Again
+          </button>
         </div>
       </div>
 
@@ -95,13 +118,13 @@
           <span class="close"><i class="far fa-times-circle"></i></span>
           <div class="modal-text">
             <h3><i class="fas fa-info"></i>About us</h3>
-            <br>
+            <br />
             <p>
               Our main goal is to help managers in hospitality industry to train
               and improve knowledge of their front and back of house staff on
               important subjects in workplace.
             </p>
-            <br>
+            <br />
             <p>How to play:</p>
             <ol>
               <li>Click on 'Start the quiz'</li>
@@ -111,7 +134,6 @@
           </div>
         </div>
       </div>
-
     </section>
 
     <!-- Footer section -->
