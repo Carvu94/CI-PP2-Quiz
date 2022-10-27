@@ -149,12 +149,6 @@ Git - for version control.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-[Ezgif](https://ezgif.com/) - To convert images to webp
-
-[Tiny PNG](https://tinypng.com/) - To compress images.
-
-[PicResize](https://picresize.com/) - To rezise images.
-
 [Favicon.io](https://favicon.io/) - To create favicon. 
 
 [Am I Responsive?](https://ui.dev/amiresponsive) - To show the website image on a range of devices. 
@@ -168,9 +162,44 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### **HTML Testing**
 
+After initial HTML testing there were no issues.
+
+![HTML test](/docs/w3-html-val.png)
 
 ### **CSS Testing**
 
+After initial CSS testing the following issues were highlihgted by Validator:
+
+![CSS initial test](/docs/w3-css-error1.png)
+![CSS initial test 2](/docs/w3-css-error2.png)
+
+The issues were fixed and there were no more warnings or errors.
+
+![CSS final test](/docs/w3-css-val.png)
+
+### **JS Testing**
+
+JSHint Validator was used for JavaScript testing. 
+
+#### **Script.js Testing**
+
+After initial testing, following issues were found:
+
+![JS script.js initial test](/docs/script-jshint.png)
+
+The issues were fixed and there were no more warnings or errors.
+
+![JS script.js final test](/docs/script-jshint-final.png)
+
+#### **Questions.js Testing
+
+After initial testing, following issues were found:
+
+![JS questions test](/docs/questions-jshint.png)
+
+The issues were fixed and there were no more warnings or errors.
+
+![JS questions final test](/docs/questions-jshint-final.png)
 
 ## **Performance**
 
