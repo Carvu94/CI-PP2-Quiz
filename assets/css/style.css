@@ -309,5 +309,9 @@ button > i {
         padding-top: 10px;
         font-size: 100%;
     }
+
+    #final-score {
+        margin-top: 70px;
+    }
 }
     
