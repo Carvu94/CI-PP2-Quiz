@@ -182,7 +182,7 @@ The issues were fixed and there were no more warnings or errors.
 
 JSHint Validator was used for JavaScript testing. 
 
-#### **Script.js Testing**
+**Script.js Testing**
 
 After initial testing, following issues were found:
 
@@ -192,7 +192,7 @@ The issues were fixed and there were no more warnings or errors.
 
 ![JS script.js final test](/docs/script-jshint-final.png)
 
-#### **Questions.js Testing**
+**Questions.js Testing**
 
 After initial testing, following issues were found:
 
@@ -242,6 +242,43 @@ For performance testing I used Google Lighthouse in Google Chrome Developer Tool
 
 ## **Solved Bugs**
 
+Through whole development of the project I was testing it using Google Developer Tools. 
+
+1. Question answers pupulated as "undefined". 
+
+![Question answers bug](/docs/question-answ-bug.png)
+
+Solution: After research and review of my code I realised that I did not target the element properly. 
+
+2. Feedback showing a number of choice instead of correct answer. 
+
+![Feedback bug](/docs/feedback-bug.png)
+
+Solution: After research and review of my code I decided to add "correct" in group in questions file. 
+
+3. Choices not fitting in buttons. 
+
+![Choice bug](/docs/small-button-bug.png)
+
+Solution: Adjust CSS code to fit the text.
+
+4. Feedback section outside of Quiz section
+
+![Feedback bug 2](/docs/feedback-bug2.png)
+
+Solution: Adjust CSS code to fit the feedback in quiz section. 
+
+5. White Edge on the bottom on all devices. 
+
+![White edge](/docs/white-edge.png)
+
+Solution: Adjust CSS code to make background cover everything. 
+
+6. Final Score and feedback not showing. 
+
+![Final score bug](/docs/final-score-error.png)
+
+Solution: Change the place of the div in HTML code. 
 
 # **Deployment**
 
