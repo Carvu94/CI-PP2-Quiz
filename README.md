@@ -1,9 +1,9 @@
 # **Training Assistant**
 Training Asisstant website is a quiz application. Main purpose and goal of the application is to assess and improve Front of House and Back of House staff knowledge on important subjects on workplace. 
 
-![Training Assistant]()
+![Training Assistant](/docs/ts-responsive.png)
 
-[View Training Assistant on GitHub Pages]()
+[View Training Assistant on GitHub Pages](https://carvu94.github.io/CI-PP2-Quiz/index.html)
 
 
 # **User Experience (UX)**
