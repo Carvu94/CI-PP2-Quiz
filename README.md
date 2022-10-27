@@ -14,6 +14,7 @@ Training Asisstant website is a quiz application. Main purpose and goal of the a
         - As a First Time Visitor, I want to easily understand the main purpose of the site and how can I take a part. 
         - As a First Time Visitor, I want to be able to easily find the rules and understand what is game about
         - As a First Time Visitor, I want to test my knowledge in certain categories. 
+        - As a First Time Visitor, I want to be able to see the progress of I am making. 
         - As a First Time Visitor, I want quiz to be responsive no matter what device is played on.
         
     - Returning Visitor Goals
@@ -26,7 +27,7 @@ Training Asisstant website is a quiz application. Main purpose and goal of the a
 
 ![Colour Palette](/docs/color-palette.png)
 
-- Mediym Sea Green colour was used for buttons and about quiz modal
+- Medium Sea Green colour was used for buttons and about quiz modal
 - Dark Turqouise colour was used for hover effect on buttons. 
 - Wild Blue Yonder colour was used for background of quiz section and header. 
 - Black colour was used for body text. 
@@ -191,7 +192,7 @@ The issues were fixed and there were no more warnings or errors.
 
 ![JS script.js final test](/docs/script-jshint-final.png)
 
-#### **Questions.js Testing
+#### **Questions.js Testing**
 
 After initial testing, following issues were found:
 
@@ -203,16 +204,41 @@ The issues were fixed and there were no more warnings or errors.
 
 ## **Performance**
 
-For performance testing I used Web.dev
+For performance testing I used Google Lighthouse in Google Chrome Developer Tools
+
+![Lighthouse test](/docs/lighthouse-test.png)
 
 
 ## **Testing User Stories from User Experience (UX) Section**
 
 ### **First Time Visitor Goals**
 
+- As a First Time Visitor, I want to easily understand the main purpose of the site and how can I take a part. 
 
-### **Frequent User Goals**
+    - Verified that users upon entering the site have brief description of purpose of the site. Additionally if users click on About Quiz, they will have more information.
 
+- As a First Time Visitor, I want to be able to easily find the rules and understand what is game about.
+
+    - Verified that users upon clicking on About Quiz button can get description about quiz and information on how to play the quiz. 
+
+- As a First Time Visitor, I want to test my knowledge in certain categories. 
+
+    - Verified that users upon starting the quiz can choose between four different categories of questions. 
+
+- As a First Time Visitor, I want to be able to see the progress of I am making. 
+
+    - Verified that users upon starting the quiz have quiz HUD which is informing them on quiz progress and score. 
+
+- As a First Time Visitor, I want quiz to be responsive no matter what device is played on.
+
+    - Verified that the quiz is responsive and everything is working no matter of screen size. 
+
+
+### **Returning User Goals**
+
+- As a Returning Visitor, I want to see if I improved my knowlede in certain categories. 
+
+    - Verified that returning users can choose between different categories. 
 
 ## **Solved Bugs**
 
