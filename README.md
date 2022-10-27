@@ -1,5 +1,5 @@
 # **Training Assistant**
-Training Asisstant website is a quiz application. Main purpose and goal of the application is to assess and improve Front of House and Back of House staff knowledge on important subjects on workplace. 
+Training Asisstant website is a quiz application. Main purpose and goal of the application is to assess and improve Front of House and Back of House staff knowledge on important subjects on workplace in catering and hospitality industry. 
 
 ![Training Assistant](/docs/ts-responsive.png)
 
@@ -11,28 +11,35 @@ Training Asisstant website is a quiz application. Main purpose and goal of the a
 - User stories
 
     - First Time Visitor Goals
-
-
+        - As a First Time Visitor, I want to easily understand the main purpose of the site and how can I take a part. 
+        - As a First Time Visitor, I want to be able to easily find the rules and understand what is game about
+        - As a First Time Visitor, I want to test my knowledge in certain categories. 
+        - As a First Time Visitor, I want quiz to be responsive no matter what device is played on.
+        
     - Returning Visitor Goals
-
-
-    - Frequent User Goals
-
+        - As a Returning Visitor, I want to see if I improved my knowlede in certain categories. 
    
 
 ## **Design**
 
 ## **Colour Scheme**
 
+![Colour Palette](/docs/color-palette.png)
+
+- Mediym Sea Green colour was used for buttons and about quiz modal
+- Dark Turqouise colour was used for hover effect on buttons. 
+- Wild Blue Yonder colour was used for background of quiz section and header. 
+- Black colour was used for body text. 
+- White colour was used for text in buttons. 
 
 ## **Typography**
 
-Google fonts was used for the following fonts:
+Google fonts was used for Ubuntu font with Sans Serif as fallback font. 
 
 
 ## **Imagery**
 
-All images used were taken from free sources which is credited in the credits section. 
+The image used was taken from free source which is credited in the credits section. 
 
 ## **Wireframes**
 
@@ -53,9 +60,70 @@ All images used were taken from free sources which is credited in the credits se
 
 ## **Existing Features**
 
+- Header
+
+    - Header contains titile of the document which is also a link to home page. It can bring user back to home page at any time. 
+
+- Main Quiz Section
+
+    - This section contains welcome message, brief description of the quiz and buttons for About Quiz and Start the quiz. 
+
+- About us button 
+
+    - This button brings up modal window which contains explanation of quiz purpose and how to play the quiz. 
+
+- Start the Quiz button 
+
+    - This button allows users to start the quiz and brings up categories. 
+
+- Category pick
+
+    - This section allows users to choose between four different quiz categories: Allergens, HACCP, Health & Safety and Diets. 
+
+- Quiz HUD
+
+    - Informs users on quiz progress and users score.
+
+- Question section
+
+    - This section contains the question and four buttons to choose the answer. 
+
+- Feedback section 
+
+    - This section contains feedback based on answer. If answer is correct, the feedback will be "Correct!". If answer is incorrect the feedback will contain correct answer to allow users to learn. 
+
+    - This section also contains Next Question button. 
+
+- Next Question button 
+
+    - This button appears after users choose the answer. It allows users to review the question and correct answer with no time limit and proceed to next question when ready. 
+
+- Results button 
+
+    - This button appears after users completes last question. It still allows users to review the last question and proceed to final result when ready. 
+    
+    - This button brings users to the final result. 
+
+- Final Result
+
+    - this section contains final feedback, final score and Play again button. 
+
+    - Play Again button will bring user back to home page of the quiz, from where users can review the quiz instructions and purpose, and start the quiz again with different or same category. 
+
+- Footer
+
+    - Footer contains links to social media sites which will open to a new tab to allow easy navigation for users. 
+
+    - Footer also contains information about developer and link to gitHub page which will open in a new tab. 
+
 
 ## **Future Implementations**
 
+- Add log in option to allow users to see all previous results. 
+
+- Add highscore leaderboard. 
+
+- Expand the pool of questions to make the quiz more challenging for returning users. 
 
 # **Technologies Used**
 
