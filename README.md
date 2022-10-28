@@ -5,6 +5,44 @@ Training Asisstant website is a quiz application. Main purpose and goal of the a
 
 [View Training Assistant on GitHub Pages](https://carvu94.github.io/CI-PP2-Quiz/index.html)
 
+## **Table of Contents**
+#
+1. [User Experience (UX)](#user-experience-ux)
+2. [Design](#design)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Wireframes](#wireframes)
+        - [Mobile](#mobile)
+        - [Tablet](#tablet)
+        - [Desktop](#desktop)
+3. [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Future Implementations](#future-implementations)
+4. [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+5. [Testing](#testing)
+    - [W3 Validators](#w3-validators)
+        - [HTML Testing](#html-testing)
+        - [CSS Testing](#css-testing)
+        - [JS Testing](#js-testing)
+    - [Performance](#performance)
+    - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
+        - [First Time Visitor Goals](#first-time-visitor-goals)
+        - [Returning User Goals](#returning-user-goals)
+    - [Solved Bugs](#solved-bugs)
+6. [Deployment](#deployment)
+    - [GitHub Pages](#github-pages)
+    - [Forking GitHub Repository](#forking-the-github-repostiory)
+    - [Making a Local Clone](#making-a-local-clone)
+7. [Credits](#credits)
+    - [Code](#code)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowledgments](#acknowledgments)
+
+<hr>
 
 # **User Experience (UX)**
 
@@ -20,10 +58,11 @@ Training Asisstant website is a quiz application. Main purpose and goal of the a
     - Returning Visitor Goals
         - As a Returning Visitor, I want to see if I improved my knowlede in certain categories. 
    
+[Back to top &uarr;](#training-assistant)
 
 ## **Design**
 
-## **Colour Scheme**
+### **Colour Scheme**
 
 ![Colour Palette](/docs/color-palette.png)
 
@@ -33,16 +72,16 @@ Training Asisstant website is a quiz application. Main purpose and goal of the a
 - Black colour was used for body text. 
 - White colour was used for text in buttons. 
 
-## **Typography**
+### **Typography**
 
 Google fonts was used for Ubuntu font with Sans Serif as fallback font. 
 
 
-## **Imagery**
+### **Imagery**
 
 The image used was taken from free source which is credited in the credits section. 
 
-## **Wireframes**
+### **Wireframes**
 
 For creating wireframes I was using Basamiq.
 
@@ -57,6 +96,8 @@ For creating wireframes I was using Basamiq.
 ### **Desktop**
 
 ![Desktop](/docs/quiz-desktop.png)
+
+[Back to top &uarr;](#training-assistant)
 
 # **Features**
 
@@ -157,6 +198,8 @@ For creating wireframes I was using Basamiq.
 
 - Expand the pool of questions to make the quiz more challenging for returning users. 
 
+[Back to top &uarr;](#training-assistant)
+
 # **Technologies Used**
 
 ## **Languages Used**
@@ -185,6 +228,7 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 [Am I Responsive?](https://ui.dev/amiresponsive) - To show the website image on a range of devices. 
 
+[Back to top &uarr;](#training-assistant)
 
 # **Testing**
 
@@ -239,6 +283,7 @@ For performance testing I used Google Lighthouse in Google Chrome Developer Tool
 
 ![Lighthouse test](/docs/lighthouse-test.png)
 
+[Back to top &uarr;](#training-assistant)
 
 ## **Testing User Stories from User Experience (UX) Section**
 
@@ -311,6 +356,8 @@ Solution: Adjust CSS code to make background cover everything.
 
 Solution: Change the place of the div in HTML code. 
 
+[Back to top &uarr;](#training-assistant)
+
 # **Deployment**
 
 ## **GitHub Pages**
@@ -319,7 +366,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 1. Log in (or sign up) to GitHub.
 
-2. Find the repository for this project.
+2. Find the repository for this project, CI-PP2-Quiz.
 
 3. Click on the Settings link.
 
@@ -327,7 +374,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 5. In the Source section, choose main from the drop-down select branch menu. Select Root from the drop-down select frolder menu. 
 
-6. Click Safe. Your live GitHu Pages site is not deployed at the URL shown. 
+6. Click Safe. Your live GitHub Pages site is not deployed at the URL shown. 
 
 
 ## **Forking the GitHub Repostiory**
@@ -336,7 +383,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 1. Log in (or sign up) to GitHub.
 
-2. locate the GitHub Repository.
+2. locate the GitHub Repository, CI-PP2-Quiz.
 
 3. At the top of the Repository just above the "Settings" Button on the menu, locate the "Fork" Button.
 
@@ -344,7 +391,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ## **Making a Local Clone**
 
-To clone the CI-PP1-gaming-den repository:
+To clone the CI-PP2-Quiz repository:
 
 1. Log in (or sign up) to GitHub. 
 
@@ -358,6 +405,8 @@ To clone the CI-PP1-gaming-den repository:
 
 5. Press 'Enter'. 
 
+[Back to top &uarr;](#training-assistant)
+
 # **Credits**
 
 ## **Code**
@@ -370,7 +419,9 @@ For inspiration and help with figuring out the code I used following resources:
 
 [MDN](https://developer.mozilla.org/en-US/)
 
-Love Maths Institute Project
+[This](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1341s) tutorial was used as inspiration for project.
+
+Love Maths Code Institute Project
 
 
 ## **Content**
@@ -392,3 +443,5 @@ Special thanks to:
 - Slack community for being there. 
 
 - My mentor for feedback and directing. 
+
+[Back to top &uarr;](#training-assistant)
