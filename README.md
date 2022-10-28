@@ -65,29 +65,45 @@ The image used was taken from free source which is credited in the credits secti
 
     - Header contains titile of the document which is also a link to home page. It can bring user back to home page at any time. 
 
+![Header](/docs/header.png)
+
 - Main Quiz Section
 
     - This section contains welcome message, brief description of the quiz and buttons for About Quiz and Start the quiz. 
 
-- About us button 
+![Main Quiz](/docs/main-quiz-sect.png)
+
+- About Quiz button 
 
     - This button brings up modal window which contains explanation of quiz purpose and how to play the quiz. 
+
+![About Quiz Button](/docs/about-quiz-btn.png)
+
+![About Quiz](/docs/about-quiz.png)
 
 - Start the Quiz button 
 
     - This button allows users to start the quiz and brings up categories. 
 
+![Start the Quiz Button](/docs/start-btn.png)
+
 - Category pick
 
     - This section allows users to choose between four different quiz categories: Allergens, HACCP, Health & Safety and Diets. 
+
+![Categories](/docs/categories.png)
 
 - Quiz HUD
 
     - Informs users on quiz progress and users score.
 
+![HUD](/docs/hud.png)
+
 - Question section
 
     - This section contains the question and four buttons to choose the answer. 
+
+![Question Section](/docs/questions.png)
 
 - Feedback section 
 
@@ -95,9 +111,14 @@ The image used was taken from free source which is credited in the credits secti
 
     - This section also contains Next Question button. 
 
+![Feedback Correct](/docs/feedback-correct.png)
+![Feedback Incorrect](/docs/feedback-incorrect.png)
+
 - Next Question button 
 
     - This button appears after users choose the answer. It allows users to review the question and correct answer with no time limit and proceed to next question when ready. 
+
+![Next Question Button](/docs/next-question.png)
 
 - Results button 
 
@@ -105,11 +126,15 @@ The image used was taken from free source which is credited in the credits secti
     
     - This button brings users to the final result. 
 
-- Final Result
+![Results Button](/docs/results-btn.png)
+
+- Final Score
 
     - this section contains final feedback, final score and Play again button. 
 
     - Play Again button will bring user back to home page of the quiz, from where users can review the quiz instructions and purpose, and start the quiz again with different or same category. 
+
+![Final Score](/docs/final-score.png)
 
 - Footer
 
@@ -117,6 +142,7 @@ The image used was taken from free source which is credited in the credits secti
 
     - Footer also contains information about developer and link to gitHub page which will open in a new tab. 
 
+![Footer](/docs/footer.png)
 
 ## **Future Implementations**
 
