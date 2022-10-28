@@ -44,14 +44,19 @@ The image used was taken from free source which is credited in the credits secti
 
 ## **Wireframes**
 
+For creating wireframes I was using Basamiq.
+
 ### **Mobile**
 
+![Mobile](/docs/quiz-mobile.png)
 
 ### **Tablet**
 
+![Tablet](/docs/quiz-tablet.png)
 
 ### **Desktop**
 
+![Desktop](/docs/quiz-desktop.png)
 
 # **Features**
 
@@ -374,7 +379,7 @@ All content was written by developer.
 
 ## **Media**
 
-- Almost all images were taken from [Pexels.com](https://www.pexels.com/).
+- Background image was taken from [Pexels.com](https://www.pexels.com/).
 
 ## **Acknowledgments**
 
@@ -384,8 +389,6 @@ Special thanks to:
 
 - My parents and work colleagues for support. 
 
-- Slack community for reviewing my project and pointing out weak spots. 
+- Slack community for being there. 
 
 - My mentor for feedback and directing. 
-
-- Tutor support at Code Institute for support. 
